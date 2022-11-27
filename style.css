@@ -1,10 +1,13 @@
 body{
     height: 3000px;
     font-family: Roboto, Arial;
+    margin: 0;
+    background-color: ;
 }
 .section-one {
-    background-color: (230,230,230);
+    background-color: rgb(246,246,246);
     height: 500px;
+    padding-top: 20px;
 }
 
 .header {
@@ -12,7 +15,7 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .header-left-section {
