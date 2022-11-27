@@ -32,5 +32,6 @@ body{
 }
 
 .header-link {
-    padding-right: 35px;
+    padding-left: 35px;
+    font-size: 16px;
 }
