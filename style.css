@@ -1,5 +1,5 @@
 body{
-    height: 3000px;
+    height: 6000px;
     font-family: Roboto, Arial;
     margin : 0;
     background-color: rgb(246,246,246);
@@ -10,6 +10,7 @@ body{
     
     height: 600px;
     padding-top: 20px;
+    margin-bottom: 40px;
 }
 
 .header {
@@ -17,10 +18,8 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    margin-top: 0px;
+    margin-bottom: 40px;
 }
-
-
 
 .header-logo {
     width: 70px;
@@ -48,7 +47,7 @@ body{
 
 .text-section-one {
     
-    height: 500px;
+    height: 00px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,7 +55,7 @@ body{
 }
 
 .title-section-one {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: bold;
     margin-bottom: 20px;
 }
@@ -65,14 +64,13 @@ body{
     font-size: 24px;
     line-height: 40px;
     width: 300px;
+    padding-right: 50px;
 }
 
-.picture-section-one-container {
-    background-color: lightcoral;
-}
+
 .picture-section-one {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
     object-fit: cover;
     
 }
@@ -99,7 +97,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    margin-bottom: 40px;
 }
 
 .title-section-two {
@@ -122,5 +120,35 @@ body{
     font-size: 14px;
     font-weight: bold;
     border-radius: 20px;
-    
+   
 }
+
+
+.section-three{
+    padding-top: 40px;
+}
+
+.text-section-three {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.section-three-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture-section-three {
+    width: 240px;
+}
+
+.picture-text-section-three{
+    display: flex;
+    flex-direction: column;
+}
+
+.category-section-three{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
