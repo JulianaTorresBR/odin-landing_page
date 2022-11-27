@@ -1,4 +1,7 @@
 # odin-landing_page
-Landing Page Odin Project
+Landing Page - Odin Project
+-Second Odin Project-
 
-Create an landing page using Html and Css 
+
+This is a project from the course "The Odin Project - Foundations".
+It's the second project of the course using what was learned in the CSS fundamentals.
