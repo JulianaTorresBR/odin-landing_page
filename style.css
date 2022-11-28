@@ -3,8 +3,8 @@ body{
     font-family: Roboto, Arial;
     margin : 0;
     background-color: rgb(246,246,246);
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .section-one {
     
@@ -22,8 +22,8 @@ body{
 }
 
 .header-logo {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     object-fit: contain;
     
 }
@@ -46,11 +46,11 @@ body{
 }
 
 .text-section-one {
-    
-    height: 00px;
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 50px;
    
 }
 
@@ -69,8 +69,8 @@ body{
 
 
 .picture-section-one {
-    width: 450px;
-    height: 450px;
+    width: 535px;
+    height: 480px;
     object-fit: cover;
     
 }
@@ -87,7 +87,7 @@ body{
 }
 
 .picture-section-two {
-    width: 760px;
+    width: 820px;
     object-fit: contain;
     margin-bottom: 40px;
    
@@ -139,7 +139,7 @@ body{
 }
 
 .picture-section-three {
-    width: 240px;
+    width: 270px;
 }
 
 .picture-text-section-three{
