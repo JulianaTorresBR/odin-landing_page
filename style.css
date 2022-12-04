@@ -1,5 +1,5 @@
 body{
-    height: 6000px;
+    
     font-family: Roboto, Arial;
     margin : 0;
     background-color: rgb(255, 255, 255);
@@ -236,7 +236,7 @@ img {
 
 .section-seven-column-list{
     color: rgb(109, 108, 108);
-    margin-bottom: 70px;
+   
 }
 
 
@@ -268,11 +268,41 @@ img {
 
 
 
-.section-eigth-container{
+.section-eight-container{
     background-color: black;
     color: rgb(109, 108, 108);
-    display: flex;
-    justify-content: end;
+    
+    
     padding-right: 50px;
     font-size: 12px;
+}
+
+.section-eight-menu-container {
+    padding-left: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.section-eight-menu {
+    padding-left: 30px;
+  
+}
+
+.section-eight-footer{
+    padding-left: 30px;
+   
+    display: flex;
+    justify-content: space-between;
+    color: rgb(109, 108, 108);
+    padding-bottom: 20px;
+}
+
+.footer-left-section{
+    display: flex;
+}
+
+.footer-location{
+    color: white;
+    margin-right: 30px;
 }
