@@ -2,9 +2,8 @@ body{
     height: 6000px;
     font-family: Roboto, Arial;
     margin : 0;
-    background-color: rgb(246,246,246);
-    padding-left: 50px;
-    padding-right: 50px;
+   
+   
 }
 
 img {
@@ -16,6 +15,8 @@ img {
     height: 600px;
     padding-top: 8px;
     margin-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .header {
@@ -24,6 +25,7 @@ img {
     align-items: center;
     height: 50px;
     margin-bottom: 40px;
+ 
 }
 
 .header-logo {
@@ -76,6 +78,8 @@ img {
    
 }
 
+
+
 .section-two-text-container {
     display: flex;
     flex-direction: column;
@@ -89,7 +93,7 @@ img {
 }
 
 .subtitle-section-two {
-    width: 490px;
+    width: 50%;
     text-align: center;
     line-height: 30px;
     margin-bottom: 25px;
@@ -109,27 +113,31 @@ img {
 
 
 .section-three{
-    padding-top: 40px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding-right: 10px;
+
 }
 
 .text-section-three {
-    font-size: 20px;
+    padding-top: 40px;
+    font-size: 24px;
     margin-bottom: 20px;
 }
 
 .section-three-container {
-    display: flex;
-    justify-content: space-between;
+
 }
 
 .picture-section-three {
-    width: 325px;
-   
+    
+   width: 100%;
 }
 
 .picture-text-section-three{
-    display: flex;
-    flex-direction: column;
+   
 }
 
 .category-section-three{
@@ -171,5 +179,25 @@ img {
 .picture-section-five {
     padding-top: 40px;
     padding-bottom: 40px;
+    filter: blur(0.8px);
+     
+    
+}
+
+.section-six {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.section-six-category {
+    margin-bottom: 30px
+}
+
+.section-six-type {
+    color: rgb(109, 108, 108);
+    margin-bottom: 20px;
     
 }
